@@ -6,11 +6,61 @@
     <!-- useful for mobile devices for more readable pages-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      a {
+        color: inherit;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <a href="http://google.com" target="_blank" rel="noopener noreferrer"
-      >test</a
-    >
+    <div style="margin-left: 20px">
+      <h1>About Me</h1>
+      <img
+        style="border-radius: 50%; margin-bottom: 20px"
+        src="https://www.w3schools.com/howto/img_avatar.png"
+        alt="Image of me"
+        height="100"
+        width="100"
+      />
+      <br />
+      <b>Darren</b>
+      <h2>Profession</h2>
+      <div>
+        <span>I am a software dev working in the healthtech industry.</span>
+        <br />
+        <span>Graduated from <u>National University of Singapore</u></span>
+      </div>
+      <h2>Personal</h2>
+      <div>
+        <ul>
+          <li>Swimming</li>
+          <li>Feeding Fishes</li>
+        </ul>
+      </div>
+
+      <h2>Socials</h2>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          max-width: 100px;
+          padding-left: 10px;
+        "
+      >
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer"
+          ><i style="text-decoration: none" class="fa fa-github"></i
+        ></a>
+        <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </div>
+    </div>
   </body>
 </html>
